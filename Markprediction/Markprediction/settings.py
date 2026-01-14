@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-!lkgx0lbz$fgg#d+(tarkpn=z4hh2b6n-vfw4mrcv*(4mlh=03
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'pass-fail-prediction-web-app.onrender.com',
+    '.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
